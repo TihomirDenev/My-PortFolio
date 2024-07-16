@@ -3,7 +3,7 @@ import { FaLinkedinIn } from 'react-icons/fa6';
 
 export default function Footer() {
   return (
-    <footer className='flex justify-between items-center w-full p-4'>
+    <footer className='flex justify-between items-center w-full p-4 bg-base-300'>
       <h3 className='flex-1 text-left'>
         Designed and Developed by Tihomir Denev
       </h3>
