@@ -13,9 +13,7 @@ export default function Home() {
       />
       <div className='text-3xl flex flex-col items-end'>
         <div className='flex'>
-          <p className='font-bold text-primary duration-300 hover:text-info'>
-            Hi There!{' '}
-          </p>
+          <p className='font-bold duration-300 hover:text-info'>Hi There! </p>
           <span
             className='inline-block animate-wave'
             style={{ transformOrigin: '70% 70%' }}
@@ -25,10 +23,10 @@ export default function Home() {
             👋🏻
           </span>
         </div>
-        <p className='font-bold text-primary duration-300 hover:text-info'>
+        <p className='font-bold duration-300 hover:text-info'>
           I`m Tihomir Denev
         </p>
-        <p className='font-bold text-primary duration-300 hover:text-info'>
+        <p className='font-bold duration-300 hover:text-info'>
           Junior Front-End Developer
         </p>
 
@@ -39,7 +37,7 @@ export default function Home() {
           href={CV}
           target='_blank'
           rel='noopener noreferrer'
-          download='Tihomir_Denev_CV.pdf' // Specify the name for the downloaded file
+          download='Tihomir_Denev_CV.pdf'
           className='btn btn-accent shadow-2xl text-2xl flex items-center'
         >
           <AiOutlineDownload className='mr-2' />
