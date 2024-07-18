@@ -27,10 +27,14 @@ export default function Home() {
           I`m Tihomir Denev
         </p>
         <p className='font-bold duration-300 hover:text-info'>
-          Junior Front-End Developer
+          Junior Web Developer
         </p>
 
         <div className='my-6'>
+          <p className='text-base text-center mb-3'>
+            Feel free to <strong className='text-primary'>connect</strong> with
+            me
+          </p>
           <Connect />
         </div>
         <a
