@@ -5,13 +5,13 @@ import { AiOutlineDownload } from 'react-icons/ai';
 
 export default function Home() {
   return (
-    <div className='flex flex-row items-center justify-between mx-52 my-16'>
+    <div className='flex flex-col md:flex-row items-center justify-between md:mx-52 mx-4 my-8'>
       <img
-        className='w-96 rounded-3xl border-4 border-white duration-300 hover:-translate-y-2 hover:shadow-2xl'
+        className='w-64 md:w-96 rounded-3xl border-4 border-white duration-300 hover:-translate-y-2 hover:shadow-2xl'
         src={myPhoto}
         alt='avatar'
       />
-      <div className='text-3xl flex flex-col items-end'>
+      <div className='text-xl md:text-3xl flex flex-col items-center md:items-end mt-6 md:mt-0'>
         <div className='flex'>
           <p className='font-bold duration-300 hover:text-info'>Hi There! </p>
           <span
@@ -42,7 +42,7 @@ export default function Home() {
           target='_blank'
           rel='noopener noreferrer'
           download='Tihomir_Denev_CV.pdf'
-          className='btn btn-accent shadow-2xl text-2xl flex items-center'
+          className='btn btn-accent shadow-2xl text-lg md:text-2xl flex items-center'
         >
           <AiOutlineDownload className='mr-2' />
           Download CV
