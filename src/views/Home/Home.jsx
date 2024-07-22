@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className='flex flex-row items-center justify-between mx-52 my-16'>
       <img
-        className='w-96 rounded-3xl border-4 border-white shadow-2xl'
+        className='w-96 rounded-3xl border-4 border-white duration-300 hover:-translate-y-2 hover:shadow-2xl'
         src={myPhoto}
         alt='avatar'
       />
