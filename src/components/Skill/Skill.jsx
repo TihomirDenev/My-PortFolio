@@ -11,7 +11,7 @@ export default function Skill({ icon, title, description }) {
 }
 
 Skill.propTypes = {
-  icon: PropTypes.elementType.isRequired,
+  icon: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };

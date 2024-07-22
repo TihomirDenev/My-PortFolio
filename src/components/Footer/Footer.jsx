@@ -2,14 +2,16 @@ import Connect from '../Connect/Connect';
 
 export default function Footer() {
   return (
-    <footer className='flex justify-between items-center w-full p-4 bg-base-300'>
-      <h3 className='flex-1 text-left'>
+    <footer className='flex flex-col md:flex-row justify-between items-center w-full p-4 bg-base-300 text-center md:text-left'>
+      <h3 className='flex-1 mb-2 md:mb-0'>
         Designed and Developed by Tihomir Denev
       </h3>
-      <h3 className='flex-1 text-center'>
-        Copyright © 2024 - All right reserved for TDD
+      <h3 className='flex-1 mb-2 md:mb-0'>
+        Copyright © 2024 - All rights reserved for TDD
       </h3>
-      <Connect />
+      <div className='flex-1'>
+        <Connect />
+      </div>
     </footer>
   );
 }

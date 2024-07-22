@@ -23,16 +23,15 @@ import { MdDataObject } from 'react-icons/md';
 
 export default function Skills() {
   return (
-    <div className='flex flex-col items-center my-8'>
+    <div className='flex flex-col items-center my-8 px-4 md:px-0'>
       <h1 className='text-2xl font-bold underline mb-2'>
         Professional Skillset:{' '}
       </h1>
-      <div className=' text-5xl text-black flex'>
+      <div className='text-5xl text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
         <Skill
           icon={<DiJavascript1 />}
           title='JavaScript'
-          description='Experienced in writing clean and efficient JavaScript code for
-            dynamic web applications.'
+          description='Experienced in writing clean and efficient JavaScript code for dynamic web applications.'
         />
         <Skill
           icon={<DiReact />}
@@ -76,7 +75,7 @@ export default function Skills() {
         />
       </div>
       <h1 className='mt-6 text-2xl font-bold underline mb-2'>Tools I Use: </h1>
-      <div className=' text-5xl text-black flex'>
+      <div className='text-5xl text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
         <Skill
           icon={<SiTailwindcss />}
           title='Tailwind CSS'
