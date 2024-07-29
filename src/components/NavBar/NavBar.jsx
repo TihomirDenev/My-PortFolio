@@ -60,10 +60,7 @@ export default function NavBar() {
         <div className='hidden md:block'>
           <ul className='menu menu-horizontal items-center text-lg'>
             <li>
-              <NavLink
-                to='/'
-                exact
-              >
+              <NavLink to='/'>
                 <AiOutlineHome />
                 Home
               </NavLink>
@@ -102,10 +99,7 @@ export default function NavBar() {
         ></label>
         <ul className='menu p-4 overflow-y-auto w-80 bg-base-100 text-lg'>
           <li>
-            <NavLink
-              to='/'
-              exact
-            >
+            <NavLink to='/'>
               <AiOutlineHome />
               Home
             </NavLink>
