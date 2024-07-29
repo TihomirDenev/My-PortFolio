@@ -6,7 +6,7 @@ export default function ProjectCard({ title, description, link, image }) {
       <img
         src={image}
         alt={title}
-        className='h-full md:h-full lg:h-full rounded-md object-cover mb-2'
+        className='w-full md:w-full lg:w-full rounded-md object-cover mb-2'
       />
       <p className='text-lg md:text-xl font-bold my-2 text-primary'>{title}</p>
       <p className='text-sm md:text-base text-center px-2 pb-3 whitespace-pre-line'>
