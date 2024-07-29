@@ -27,7 +27,7 @@ export default function About() {
           <img
             src={image}
             alt='about'
-            className='max-w-full md:max-w-md'
+            className='max-h-full md:max-h-md'
           />
         </div>
       </div>
