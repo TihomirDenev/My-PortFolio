@@ -1,6 +1,6 @@
 <h2 align="center">
   Welcome to My Portfolio Website! <br/>
-  <a href="https://myportfolio-silk-phi.vercel.app/" target="_blank">TDD PortFolio</a>
+  <a href="https://portfolio-tihomirdenevs-projects.vercel.app/" target="_blank">TDD PortFolio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./src/assets/demo.png" height="350"/>
@@ -84,7 +84,7 @@ npm run dev
 
 # 📲 Information and Deployment
 
-- This site is hosted on Vercel, which provides powerful hosting and serverless functions for static and dynamic websites. You can view the live site here: [My Portfolio](https://myportfolio-silk-phi.vercel.app/).
+- This site is hosted on Vercel, which provides powerful hosting and serverless functions for static and dynamic websites. You can view the live site here: [My Portfolio](https://portfolio-tihomirdenevs-projects.vercel.app/).
 
 <br />
 
