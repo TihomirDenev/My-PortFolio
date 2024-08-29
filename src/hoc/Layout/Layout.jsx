@@ -1,12 +1,12 @@
-import NavBar from '../../components/NavBar/NavBar';
-import Footer from '../../components/Footer/Footer';
-import PropTypes from 'prop-types';
+import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
+import PropTypes from "prop-types";
 
 export default function Layout({ children }) {
   return (
     <div>
       <NavBar />
-      {children}
+      <div className="layout-container">{children}</div>
       <Footer />
     </div>
   );
