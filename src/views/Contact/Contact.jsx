@@ -1,6 +1,6 @@
 import Connect from '../../components/Connect/Connect';
 import { IoIosArrowRoundDown } from 'react-icons/io';
-import avatar from '../../assets/avatar.svg';
+import avatar from '../../assets/avatar.png';
 import { LOCATION, workHours } from '../../common/constants';
 
 export default function Contact() {
@@ -9,7 +9,7 @@ export default function Contact() {
       <img
         src={avatar}
         alt='Avatar'
-        className='w-32 h-32 md:w-48 md:h-48 duration-300 hover:-translate-y-2'
+        className='w-32 h-32 md:w-48 md:h-48 duration-300 hover:scale-105 transition-transform'
       />
       <div className='flex flex-col items-center md:ml-10 mt-4 md:mt-0'>
         <h1 className='text-2xl font-bold underline'>Contacts: </h1>

@@ -70,7 +70,7 @@ export default function About() {
             <img
               src={frontImg}
               alt='front'
-              className='h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:-translate-y-1'
+              className='h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:scale-105'
             />
           </a>
           <a
@@ -81,7 +81,7 @@ export default function About() {
             <img
               src={backImg}
               alt='back'
-              className='h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:-translate-y-1'
+              className='h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:scale-105'
             />
           </a>
         </div>

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function ProjectCard({ title, description, link, image }) {
   return (
-    <div className='flex flex-col p-4 items-center border-2 border-gray-500 rounded-2xl w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl m-2 duration-300 hover:-translate-y-1 hover:shadow-2xl'>
+    <div className='flex flex-col p-4 items-center bg-base-200 border-2 border-gray-500 rounded-2xl w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl m-2 duration-300 hover:-translate-y-1 hover:shadow-2xl'>
       <img
         src={image}
         alt={title}
