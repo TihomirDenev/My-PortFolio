@@ -26,6 +26,7 @@ import {
 import { LuFunctionSquare } from 'react-icons/lu';
 import { MdDataObject } from 'react-icons/md';
 import { VscVscode } from 'react-icons/vsc';
+import { BiLogoTypescript } from 'react-icons/bi';
 
 export default function Skills() {
   return (
@@ -46,6 +47,12 @@ export default function Skills() {
             title='React'
             description='Familiar with building component-based user interfaces using React.'
             link='https://reactjs.org/'
+          />
+          <SkillCard
+            icon={<BiLogoTypescript className='text-blue-500' />}
+            title='TypeScript'
+            description='Experienced in using TypeScript to add static typing to JavaScript, improving code quality and reducing bugs in large-scale applications.'
+            link='https://www.typescriptlang.org/'
           />
           <SkillCard
             icon={<DiAngularSimple className='text-red-500' />}
