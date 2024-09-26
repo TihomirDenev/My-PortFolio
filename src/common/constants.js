@@ -1,4 +1,4 @@
-export const LIGHT_THEME = 'fantasy';
+export const LIGHT_THEME = 'autumn';
 
 export const DARK_THEME = 'sunset';
 
