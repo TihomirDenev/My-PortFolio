@@ -25,7 +25,7 @@ export default function NavBar() {
   }, [theme]);
 
   return (
-    <div className='drawer drawer-end bg-base-300'>
+    <div className='drawer drawer-end bg-gray-800 text-white shadow-md'>
       <input
         id='nav-drawer'
         type='checkbox'

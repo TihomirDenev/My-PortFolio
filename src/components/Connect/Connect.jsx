@@ -1,10 +1,13 @@
 import { AiFillGithub, AiFillInstagram, AiFillMail } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa6';
+import PropTypes from 'prop-types';
 
-export default function Connect() {
+export default function Connect({ color }) {
   return (
     <div className='w-full'>
-      <ul className='footer-icons flex justify-center md:justify-end text-primary'>
+      <ul
+        className={`footer-icons flex justify-center md:justify-end text-${color}`}
+      >
         <li
           className='mx-2 md:mx-4 text-2xl duration-300 hover:text-secondary hover:bg-gray-300 hover:rounded-xl'
           title='GitHub'
@@ -57,3 +60,7 @@ export default function Connect() {
     </div>
   );
 }
+
+Connect.propTypes = {
+  color: PropTypes.string,
+};

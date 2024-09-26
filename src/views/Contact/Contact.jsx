@@ -32,7 +32,7 @@ export default function Contact() {
         </div>
         <div className='flex flex-col items-center mt-4'>
           <IoIosArrowRoundDown className='text-4xl md:text-5xl my-4' />
-          <Connect />
+          <Connect color='primary' />
         </div>
       </div>
     </div>

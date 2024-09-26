@@ -35,7 +35,7 @@ export default function Home() {
             Feel free to <strong className='text-primary'>connect</strong> with
             me
           </p>
-          <Connect />
+          <Connect color='primary' />
         </div>
         <a
           href={CV}
