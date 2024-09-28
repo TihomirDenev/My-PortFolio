@@ -1,23 +1,51 @@
 import PropTypes from 'prop-types';
 
-export default function ProjectCard({ title, description, link, image }) {
+export default function ProjectCard({
+  title,
+  description,
+  techStack,
+  linkForRepo,
+  linkForSite,
+  image,
+}) {
   return (
-    <div className='flex flex-col p-4 items-center bg-base-200 border-2 border-gray-500 rounded-2xl w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl m-2 duration-300 hover:-translate-y-1 hover:shadow-2xl'>
-      <img
-        src={image}
-        alt={title}
-        className='w-full md:w-full lg:w-full rounded-md object-cover mb-2'
-      />
-      <p className='text-lg md:text-xl font-bold my-2 text-primary'>{title}</p>
-      <p className='text-sm md:text-base text-center px-2 pb-3 whitespace-pre-line'>
+    <div className='flex flex-col bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 p-4 border-2 border-black rounded-3xl w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl m-4 shadow-lg transform transition-transform duration-300'>
+      {linkForSite ? (
+        <button onClick={() => window.open(linkForSite, '_blank')}>
+          <img
+            src={image}
+            alt={title}
+            className='w-full rounded-md object-cover mb-2 border-4 border-black'
+          />
+        </button>
+      ) : (
+        <img
+          src={image}
+          alt={title}
+          className='w-full rounded-md object-cover mb-2 border-4 border-black'
+        />
+      )}
+
+      <p className='text-xl font-bold text-white z-10 text-center'>{title}</p>
+
+      <p className='text-sm text-white text-center px-4 py-2 z-10 opacity-90'>
+        <strong className='text-base'>Description: </strong>
         {description}
       </p>
-      <button
-        onClick={() => window.open(link, '_blank')}
-        className='btn btn-accent my-3'
-      >
-        View Project
-      </button>
+
+      <p className='text-sm text-white text-center px-4 py-2 z-10 opacity-90'>
+        <strong className='text-base'>Tech Stack: </strong>
+        {techStack}.
+      </p>
+
+      <div className='mt-auto w-full flex justify-center'>
+        <button
+          onClick={() => window.open(linkForRepo, '_blank')}
+          className='relative z-10 mt-4 py-2 px-6 bg-white text-gray-800 font-semibold rounded-lg transition-colors duration-300 hover:bg-gray-200'
+        >
+          Github Repository
+        </button>
+      </div>
     </div>
   );
 }
@@ -25,6 +53,8 @@ export default function ProjectCard({ title, description, link, image }) {
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  techStack: PropTypes.string.isRequired,
+  linkForRepo: PropTypes.string.isRequired,
+  linkForSite: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
 };

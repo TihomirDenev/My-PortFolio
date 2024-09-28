@@ -1,7 +1,10 @@
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import giphyHunters from '../../assets/GiphyHunters.png';
-import motionMate from '../../assets/MotionMate.png';
-import tastyRecipeTalk from '../../assets/TastyRecipeTalk.png';
+import ticTacToe from '../../assets/tic-tac-toe.png';
+import taskManager from '../../assets/task-manager.png';
+import motionMate from '../../assets/motion-mate.png';
+import tastyRecipeTalk from '../../assets/tasty-recipe-talk.png';
+import giphyHunters from '../../assets/giphy-hunters.png';
+import myPortfolio from '../../assets/portfolio.png';
 
 export default function Projects() {
   return (
@@ -11,22 +14,48 @@ export default function Projects() {
       </h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl'>
         <ProjectCard
-          title='Giphy Hunters'
-          description={`Developed a dynamic Single Page Application using the Giphy API to display trending GIFs with\ninfinite scroll, upload and manage favorite GIFs, and showcase random GIFs for a fun user\nexperience. Employed CSS for responsive design and optimized state management for seamless\nperformance.`}
-          link='https://github.com/A58-Agents-Team1/Web-Project'
-          image={giphyHunters}
+          title='Task Manager'
+          description='Task Manager allows users to manage their tasks efficiently with a user-friendly interface. Users can view tasks assigned to them, add new tasks, and mark tasks as complete. The application is structured to support enterprise needs, providing seamless management of user tasks without any friction.'
+          techStack='JavaScript, Angular, HTML, CSS'
+          linkForRepo='https://github.com/TihomirDenev/Task-Manager'
+          image={taskManager}
         />
         <ProjectCard
-          title='Tasty Recipe Talk'
-          description={`Developed a culinary forum featuring both public and private sections where users can register,\ncreate, edit, and comment on recipes, as well as manage their profiles and profile pictures.\nIncluded an admin panel for user management and content moderation, ensuring a secure\nenvironment. Utilized React Router for navigation.`}
-          link='https://github.com/A58-Agents-Team1/Tasty-Recipe-Talk'
+          title='Tic Tac Toe Game'
+          description='Developed Tic Tac Toe game that allows two players to play, track scores, and reset the board dynamically. Built using HTML, CSS, and JavaScript, this game includes a clean and interactive interface with real-time score tracking.'
+          techStack='JavaScript, HTML, CSS, Object-Oriented Programming'
+          linkForRepo='https://github.com/TihomirDenev/Tic-Tac-Toe'
+          linkForSite='https://tic-tac-toe-bay-psi.vercel.app/'
+          image={ticTacToe}
+        />
+        <ProjectCard
+          title='My Portfolio'
+          description='The site is designed with a modern, responsive layout featuring a header, main content sections, and a footer. CSS styles are applied to ensure a cohesive design, with adjustments for different screen sizes using media queries.'
+          techStack='JavaScript, HTML, CSS'
+          linkForRepo='https://github.com/TihomirDenev/Portfolio'
+          image={myPortfolio}
+        />
+        <ProjectCard
+          title='Fitness tracking application: Motion Mate'
+          description='Developed fitness tracking app offers both public and private features, including an administrative section, allowing users to send friend requests, add friends, create goals and exercises, and calculate their body mass index. Utilized React Router for navigation.'
+          techStack='JavaScript, React, Firebase, Tailwind CSS, Daisy UI, React Router, GitHub, ESLint, JSON'
+          linkForRepo='https://github.com/A58-Agents-Team1/Motion.Mate'
+          linkForSite='https://a58-agents-team1.github.io/Motion.Mate//'
+          image={motionMate}
+        />
+        <ProjectCard
+          title='Forum: Tasty Recipe Talk'
+          description='Developed a culinary forum featuring both public and private sections where users can register, create, edit, and comment on recipes, as well as manage their profiles and profile pictures. Included an admin panel for user management and content moderation, ensuring a secure environment. Utilized React Router for navigation.'
+          techStack='JavaScript, React, Firebase, Chakra UI, React Router, GitHub, ESLint, JSON'
+          linkForRepo='https://github.com/A58-Agents-Team1/Tasty-Recipe-Talk'
           image={tastyRecipeTalk}
         />
         <ProjectCard
-          title='Motion Mate'
-          description={`Developed fitness tracking app offers both public and private features, including an\nadministrative section, allowing users to send friend requests, add friends, create goals and\nexercises, and calculate their body mass index. Utilized React Router for navigation.`}
-          link='https://github.com/A58-Agents-Team1/Motion.Mate'
-          image={motionMate}
+          title='Giphy Hunters'
+          description='Developed a dynamic Single Page Application using the Giphy API to display trending GIFs with infinite scroll, upload and manage favorite GIFs, and showcase random GIFs for a fun user experience. Employed CSS for responsive design and optimized state management for seamless performance.'
+          techStack='JavaScript, HTML, CSS, API, Postman, GitHub, ESLint, JSON'
+          linkForRepo='https://github.com/A58-Agents-Team1/Web-Project'
+          image={giphyHunters}
         />
       </div>
     </div>
