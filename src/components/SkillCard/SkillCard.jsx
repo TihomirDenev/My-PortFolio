@@ -10,12 +10,14 @@ export default function SkillCard({ icon, title, description, link }) {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <p className='text-xl text-white m-2 font-semibold hover:underline'>
+          <p className='text-xl text-white text-center m-2 font-semibold hover:underline'>
             {title}
           </p>
         </a>
       ) : (
-        <p className='text-xl text-white m-2 font-semibold'>{title}</p>
+        <p className='text-xl text-white text-center m-2 font-semibold'>
+          {title}
+        </p>
       )}
       <p className='text-sm text-center text-gray-200 px-2 pb-3'>
         {description}

@@ -18,6 +18,7 @@ import {
   SiGnubash,
   SiJenkins,
   SiJest,
+  SiJson,
   SiKeycloak,
   SiMicrosoftazure,
   SiPostman,
@@ -122,6 +123,13 @@ const skillData = {
       description:
         'Proficient in using RxJS for managing asynchronous data streams in JavaScript applications.',
       link: 'https://rxjs.dev/',
+    },
+    {
+      icon: <SiJson />,
+      title: 'JSON',
+      description:
+        'Skilled in working with JSON for data exchange between the server and client.',
+      link: 'https://www.json.org/json-en.html',
     },
   ],
   tools: [

@@ -19,7 +19,7 @@ export default function About() {
             My field of interest includes building new web technologies, Single
             Page Applications (SPA), and products. Whenever possible, I apply my
             passion for developing products with Node.js and modern JavaScript
-            libraries and frameworks like React.js.
+            libraries and frameworks like Angular and React.
           </p>
           <br />
         </div>
