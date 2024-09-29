@@ -24,6 +24,13 @@ export default function NavBar() {
     document.querySelector('html').setAttribute('data-theme', theme);
   }, [theme]);
 
+  const closeDrawer = () => {
+    const drawerToggle = document.getElementById('nav-drawer');
+    if (drawerToggle) {
+      drawerToggle.checked = false;
+    }
+  };
+
   return (
     <div className='drawer drawer-end bg-gray-800 text-gray-300 shadow-md'>
       <input
@@ -60,31 +67,46 @@ export default function NavBar() {
         <div className='hidden md:block'>
           <ul className='menu menu-horizontal items-center text-lg'>
             <li>
-              <NavLink to='/'>
+              <NavLink
+                to='/'
+                onClick={closeDrawer}
+              >
                 <AiOutlineHome />
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to='/about'>
+              <NavLink
+                to='/about'
+                onClick={closeDrawer}
+              >
                 <AiOutlineUser />
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to='/skills'>
+              <NavLink
+                to='/skills'
+                onClick={closeDrawer}
+              >
                 <AiOutlineTool />
                 Skills
               </NavLink>
             </li>
             <li>
-              <NavLink to='/projects'>
+              <NavLink
+                to='/projects'
+                onClick={closeDrawer}
+              >
                 <AiOutlineFundProjectionScreen />
                 Projects
               </NavLink>
             </li>
             <li>
-              <NavLink to='/contact'>
+              <NavLink
+                to='/contact'
+                onClick={closeDrawer}
+              >
                 <AiOutlineContacts />
                 Contact
               </NavLink>
@@ -92,38 +114,53 @@ export default function NavBar() {
           </ul>
         </div>
       </div>
-      <div className='drawer-side'>
+      <div className='drawer-side z-50'>
         <label
           htmlFor='nav-drawer'
           className='drawer-overlay'
         ></label>
-        <ul className='menu p-4 overflow-y-auto w-80 bg-base-100 text-lg'>
+        <ul className='menu p-4 overflow-y-auto w-80 bg-base-100 text-lg text-black'>
           <li>
-            <NavLink to='/'>
+            <NavLink
+              to='/'
+              onClick={closeDrawer}
+            >
               <AiOutlineHome />
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to='/about'>
+            <NavLink
+              to='/about'
+              onClick={closeDrawer}
+            >
               <AiOutlineUser />
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to='/skills'>
+            <NavLink
+              to='/skills'
+              onClick={closeDrawer}
+            >
               <AiOutlineTool />
               Skills
             </NavLink>
           </li>
           <li>
-            <NavLink to='/projects'>
+            <NavLink
+              to='/projects'
+              onClick={closeDrawer}
+            >
               <AiOutlineFundProjectionScreen />
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to='/contact'>
+            <NavLink
+              to='/contact'
+              onClick={closeDrawer}
+            >
               <AiOutlineContacts />
               Contact
             </NavLink>
