@@ -25,7 +25,7 @@ export default function Projects() {
           description='Developed Tic Tac Toe game that allows two players to play, track scores, and reset the board dynamically. Built using HTML, CSS, and JavaScript, this game includes a clean and interactive interface with real-time score tracking.'
           techStack='JavaScript, HTML, CSS, Object-Oriented Programming'
           linkForRepo='https://github.com/TihomirDenev/Tic-Tac-Toe'
-          linkForSite='https://tic-tac-toe-bay-psi.vercel.app/'
+          linkForSite='https://tic-tac-toe-mauve-nine-55.vercel.app/'
           image={ticTacToe}
         />
         <ProjectCard
