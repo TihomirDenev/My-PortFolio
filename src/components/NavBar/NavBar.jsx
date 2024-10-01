@@ -119,7 +119,7 @@ export default function NavBar() {
           htmlFor='nav-drawer'
           className='drawer-overlay'
         ></label>
-        <ul className='menu p-4 overflow-y-auto w-80 bg-base-100 text-lg text-black'>
+        <ul className='menu p-4 overflow-y-auto w-52 rounded-2xl bg-base-100 text-lg text-gray-600'>
           <li>
             <NavLink
               to='/'
