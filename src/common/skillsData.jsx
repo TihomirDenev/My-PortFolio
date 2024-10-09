@@ -21,6 +21,7 @@ import {
   SiJson,
   SiKeycloak,
   SiMicrosoftazure,
+  SiNpm,
   SiPostman,
   SiReactivex,
   SiSass,
@@ -131,6 +132,13 @@ const skillData = {
         'Skilled in working with JSON for data exchange between the server and client.',
       link: 'https://www.json.org/json-en.html',
     },
+    {
+      icon: <SiNpm className='text-red-600' />,
+      title: 'NPM',
+      description:
+        'Experienced in using NPM for package management and dependency installation in projects.',
+      link: 'https://www.npmjs.com/',
+    },
   ],
   tools: [
     {
@@ -155,13 +163,6 @@ const skillData = {
       link: 'https://chakra-ui.com/',
     },
     {
-      icon: <SiJenkins className='text-blue-400' />,
-      title: 'Jenkins',
-      description:
-        'Proficient with Jenkins for CI/CD processes, enhancing development workflows.',
-      link: 'https://www.jenkins.io/',
-    },
-    {
       icon: <SiBitbucket className='text-blue-500' />,
       title: 'Bitbucket',
       description:
@@ -181,6 +182,20 @@ const skillData = {
       description:
         'Experienced in collaborating on projects via GitHub, managing repositories, and handling pull requests.',
       link: 'https://github.com/',
+    },
+    {
+      icon: <SiMicrosoftazure className='text-blue-500' />,
+      title: 'Azure',
+      description:
+        'Experienced in using Microsoft Azure for cloud computing services such as app hosting, data storage, and machine learning.',
+      link: 'https://azure.microsoft.com/',
+    },
+    {
+      icon: <SiJenkins className='text-blue-400' />,
+      title: 'Jenkins',
+      description:
+        'Proficient with Jenkins for CI/CD processes, enhancing development workflows.',
+      link: 'https://www.jenkins.io/',
     },
     {
       icon: <SiJest className='text-red-400' />,
@@ -223,13 +238,6 @@ const skillData = {
       description:
         'Experienced in using Figma for designing user interfaces and collaborating with design teams.',
       link: 'https://www.figma.com/',
-    },
-    {
-      icon: <SiMicrosoftazure className='text-blue-500' />,
-      title: 'Azure',
-      description:
-        'Experienced in using Microsoft Azure for cloud computing services such as app hosting, data storage, and machine learning.',
-      link: 'https://azure.microsoft.com/',
     },
   ],
   softSkills: [
@@ -280,6 +288,27 @@ const skillData = {
       title: 'Meticulous',
       description:
         'Meticulous in ensuring accuracy and quality in all tasks and projects.',
+    },
+    {
+      icon: <span className='text-4xl'>🗣️</span>,
+      title: 'Communication',
+      description: 'Clear and calm in expressing ideas across teams.',
+    },
+    {
+      icon: <span className='text-4xl'>💼</span>,
+      title: 'Work Ethic',
+      description: 'Persistence and discipline in achieving goals.',
+    },
+    {
+      icon: <span className='text-4xl'>🏅</span>,
+      title: 'Leadership',
+      description: 'Skilled in mentoring and motivating diverse teams.',
+    },
+    {
+      icon: <span className='text-4xl'>🎯</span>,
+      title: 'Problem Solving',
+      description:
+        'Skilled at identifying issues and providing practical solutions.',
     },
   ],
 };
