@@ -1,6 +1,6 @@
-import { useState } from "react";
-import skillData from "../../common/skillsData";
-import SkillCard from "../../components/SkillCard/SkillCard";
+import { useState } from 'react';
+import skillData from '../../common/skillsData';
+import SkillCard from '../../components/SkillCard/SkillCard';
 
 export default function Skills() {
   const [showProfessional, setShowProfessional] = useState(true);
@@ -8,15 +8,15 @@ export default function Skills() {
   const [showSoftSkills, setShowSoftSkills] = useState(true);
 
   const handleToggleCategory = (category) => {
-    if (category === "professional") {
+    if (category === 'professional') {
       setShowProfessional(true);
       setShowTools(false);
       setShowSoftSkills(false);
-    } else if (category === "tools") {
+    } else if (category === 'tools') {
       setShowProfessional(false);
       setShowTools(true);
       setShowSoftSkills(false);
-    } else if (category === "softSkills") {
+    } else if (category === 'softSkills') {
       setShowProfessional(false);
       setShowTools(false);
       setShowSoftSkills(true);
@@ -30,39 +30,39 @@ export default function Skills() {
   };
 
   return (
-    <div>
-      <ul className="flex flex-row items-center justify-between bg-gray-800 text-white text-md w-full py-2 px-4">
-        <li className="text-gray-400">Filter By:</li>
-        <div className="flex flex-row space-x-2">
+    <div className='flex flex-col items-center'>
+      <ul className='flex flex-row items-center justify-between bg-gray-800 text-white text-md rounded-xl py-2 px-4 m-2'>
+        <li className='text-gray-400'>Filter By:</li>
+        <div className='flex flex-row space-x-2'>
           <li>
             <button
-              className="px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
-              onClick={() => handleToggleCategory("professional")}
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
+              onClick={() => handleToggleCategory('professional')}
             >
               Skills
             </button>
           </li>
           <li>
             <button
-              className="px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
-              onClick={() => handleToggleCategory("tools")}
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
+              onClick={() => handleToggleCategory('tools')}
             >
               Tools
             </button>
           </li>
           <li>
             <button
-              className="px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
-              onClick={() => handleToggleCategory("softSkills")}
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
+              onClick={() => handleToggleCategory('softSkills')}
             >
               Soft Skills
             </button>
           </li>
           <li>
             <button
-              className="px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
               onClick={handleClearFilters}
-              title="Click to remove all filters and show all skills"
+              title='Click to remove all filters and show all skills'
             >
               Show All
             </button>
@@ -70,13 +70,13 @@ export default function Skills() {
         </div>
       </ul>
 
-      <div className="flex flex-col items-center md:px-0">
+      <div className='flex flex-col items-center md:px-0'>
         {showProfessional && (
-          <article className="flex flex-col items-center">
-            <h1 className="text-2xl font-bold underline my-6">
+          <article className='flex flex-col items-center mb-4'>
+            <h1 className='text-2xl font-bold underline my-2'>
               Professional Skill Set:
             </h1>
-            <div className="text-5xl text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className='text-5xl text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
               {skillData.professionalSkills.map((skill) => (
                 <SkillCard
                   key={skill.title}
@@ -91,9 +91,9 @@ export default function Skills() {
         )}
 
         {showTools && (
-          <article className="flex flex-col items-center">
-            <h1 className="text-2xl font-bold underline my-6">Tools I Use:</h1>
-            <div className="text-5xl text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <article className='flex flex-col items-center mb-4'>
+            <h1 className='text-2xl font-bold underline my-2'>Tools I Use:</h1>
+            <div className='text-5xl text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
               {skillData.tools.map((tool) => (
                 <SkillCard
                   key={tool.title}
@@ -108,9 +108,9 @@ export default function Skills() {
         )}
 
         {showSoftSkills && (
-          <article className="flex flex-col items-center">
-            <h1 className="text-2xl font-bold underline my-6">Soft Skills:</h1>
-            <div className="text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <article className='flex flex-col items-center mb-4'>
+            <h1 className='text-2xl font-bold underline my-2'>Soft Skills:</h1>
+            <div className='text-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
               {skillData.softSkills.map((softSkill) => (
                 <SkillCard
                   key={softSkill.title}
