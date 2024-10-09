@@ -64,7 +64,7 @@ export default function Skills() {
               onClick={handleClearFilters}
               title='Click to remove all filters and show all skills'
             >
-              Show All
+              All
             </button>
           </li>
         </div>
