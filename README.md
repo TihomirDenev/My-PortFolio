@@ -3,7 +3,7 @@
   <a href="https://portfolio-tihomirdenevs-projects.vercel.app/" target="_blank">TDD PortFolio</a>
 </h2>
 <div align="center">
-<img alt="Demo" src="./src/assets/myPortfolio.png" height="350" style="border-radius: 10px;" />
+<img alt="Demo" src="./src/assets/myPortFolio.png" height="350" style="border-radius: 10px;" />
 </div>
 
 # 📝 Description
