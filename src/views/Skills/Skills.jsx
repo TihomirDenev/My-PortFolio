@@ -31,12 +31,12 @@ export default function Skills() {
 
   return (
     <div className='flex flex-col items-center'>
-      <ul className='flex flex-row items-center justify-between bg-gray-800 text-white text-md rounded-xl py-2 px-4 m-2'>
-        <li className='text-gray-400'>Filter By:</li>
+      <ul className='flex flex-row items-center gap-2 bg-gray-800 text-white text-md rounded-xl py-2 px-6 mt-3'>
+        <li className='text-gray-400 text-sm md:text-md'>Filter by:</li>
         <div className='flex flex-row space-x-2'>
           <li>
             <button
-              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 text-xs md:text-sm'
               onClick={() => handleToggleCategory('professional')}
             >
               Skills
@@ -44,7 +44,7 @@ export default function Skills() {
           </li>
           <li>
             <button
-              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 text-xs md:text-sm'
               onClick={() => handleToggleCategory('tools')}
             >
               Tools
@@ -52,7 +52,7 @@ export default function Skills() {
           </li>
           <li>
             <button
-              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 text-xs md:text-sm'
               onClick={() => handleToggleCategory('softSkills')}
             >
               Soft Skills
@@ -60,7 +60,7 @@ export default function Skills() {
           </li>
           <li>
             <button
-              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50'
+              className='px-3 py-1 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 text-xs md:text-sm'
               onClick={handleClearFilters}
               title='Click to remove all filters and show all skills'
             >
