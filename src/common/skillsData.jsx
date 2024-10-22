@@ -6,7 +6,7 @@ import {
   DiJavascript1,
   DiNodejs,
   DiReact,
-} from 'react-icons/di';
+} from "react-icons/di";
 import {
   SiBitbucket,
   SiChakraui,
@@ -27,288 +27,303 @@ import {
   SiSass,
   SiTailwindcss,
   SiVisualstudiocode,
-} from 'react-icons/si';
-import { LuFunctionSquare } from 'react-icons/lu';
-import { MdDataObject } from 'react-icons/md';
-import { BiLogoTypescript } from 'react-icons/bi';
+  SiZsh,
+} from "react-icons/si";
+import { LuFunctionSquare } from "react-icons/lu";
+import { MdDataObject } from "react-icons/md";
+import { BiLogoTypescript } from "react-icons/bi";
+import { BsDiagram3 } from "react-icons/bs";
 
 const skillData = {
   professionalSkills: [
     {
-      icon: <DiJavascript1 className='text-yellow-500' />,
-      title: 'JavaScript',
+      icon: <DiJavascript1 className="text-yellow-500" />,
+      title: "JavaScript",
       description:
-        'Experienced in writing clean and efficient JavaScript code for dynamic web applications.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+        "Experienced in writing clean and efficient JavaScript code for dynamic web applications.",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
-      icon: <DiReact className='text-blue-500' />,
-      title: 'React',
+      icon: <DiReact className="text-blue-500" />,
+      title: "React",
       description:
-        'Familiar with building component-based user interfaces using React.',
-      link: 'https://reactjs.org/',
+        "Familiar with building component-based user interfaces using React.",
+      link: "https://reactjs.org/",
     },
     {
-      icon: <BiLogoTypescript className='text-blue-500' />,
-      title: 'TypeScript',
+      icon: <BiLogoTypescript className="text-blue-500" />,
+      title: "TypeScript",
       description:
-        'Experienced in using TypeScript to add static typing to JavaScript, improving code quality and reducing bugs.',
-      link: 'https://www.typescriptlang.org/',
+        "Experienced in using TypeScript to add static typing to JavaScript, improving code quality and reducing bugs.",
+      link: "https://www.typescriptlang.org/",
     },
     {
-      icon: <DiAngularSimple className='text-red-500' />,
-      title: 'Angular',
+      icon: <DiAngularSimple className="text-red-500" />,
+      title: "Angular",
       description:
-        'Skilled in building scalable web applications using the Angular framework.',
-      link: 'https://angular.io/',
+        "Skilled in building scalable web applications using the Angular framework.",
+      link: "https://angular.io/",
     },
     {
-      icon: <DiHtml5 className='text-orange-500' />,
-      title: 'HTML',
+      icon: <DiHtml5 className="text-orange-500" />,
+      title: "HTML",
       description:
-        'Expert in crafting semantic and accessible HTML structures.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+        "Expert in crafting semantic and accessible HTML structures.",
+      link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     },
     {
-      icon: <DiCss3 className='text-blue-600' />,
-      title: 'CSS',
+      icon: <DiCss3 className="text-blue-600" />,
+      title: "CSS",
       description:
-        'Proficient in creating responsive and visually appealing designs using CSS.',
-      link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+        "Proficient in creating responsive and visually appealing designs using CSS.",
+      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
     {
-      icon: <SiSass className='text-pink-500' />,
-      title: 'SASS',
+      icon: <SiSass className="text-pink-500" />,
+      title: "SASS",
       description:
-        'Skilled in SCSS for advanced CSS styling with variables, mixins, and nesting capabilities.',
-      link: 'https://sass-lang.com/',
+        "Skilled in SCSS for advanced CSS styling with variables, mixins, and nesting capabilities.",
+      link: "https://sass-lang.com/",
     },
     {
-      icon: <DiNodejs className='text-green-500' />,
-      title: 'NodeJS',
+      icon: <DiNodejs className="text-green-500" />,
+      title: "NodeJS",
       description:
-        'Basic knowledge of using Node.js to create server-side applications and APIs.',
-      link: 'https://nodejs.org/',
+        "Basic knowledge of using Node.js to create server-side applications and APIs.",
+      link: "https://nodejs.org/",
     },
     {
-      icon: <SiFirebase className='text-amber-500' />,
-      title: 'Firebase',
+      icon: <SiFirebase className="text-amber-500" />,
+      title: "Firebase",
       description:
-        'Knowledgeable in using Firebase for real-time data storage and authentication.',
-      link: 'https://firebase.google.com/',
+        "Knowledgeable in using Firebase for real-time data storage and authentication.",
+      link: "https://firebase.google.com/",
     },
     {
-      icon: <SiGnubash className='text-gray-800' />,
-      title: 'Bash',
+      icon: <SiGnubash className="text-gray-800" />,
+      title: "Bash",
       description:
-        'Basic skills in using Bash for Git commands and other version control tasks.',
-      link: 'https://www.gnu.org/software/bash/',
+        "Basic skills in using Bash for Git commands and other version control tasks.",
+      link: "https://www.gnu.org/software/bash/",
     },
     {
-      icon: <MdDataObject className='text-purple-500' />,
-      title: 'OOP',
+      icon: <MdDataObject className="text-purple-500" />,
+      title: "OOP",
       description:
-        'Skilled in applying OOP principles to create modular and reusable code structures.',
-      link: 'https://en.wikipedia.org/wiki/Object-oriented_programming',
+        "Skilled in applying OOP principles to create modular and reusable code structures.",
+      link: "https://en.wikipedia.org/wiki/Object-oriented_programming",
     },
     {
-      icon: <LuFunctionSquare className='text-blue-400' />,
-      title: 'Functional Programming',
+      icon: <LuFunctionSquare className="text-blue-400" />,
+      title: "Functional Programming",
       description:
-        'Experienced in using FP concepts to write clean and maintainable code through functions and immutability.',
-      link: 'https://en.wikipedia.org/wiki/Functional_programming',
+        "Experienced in using FP concepts to write clean and maintainable code through functions and immutability.",
+      link: "https://en.wikipedia.org/wiki/Functional_programming",
     },
     {
-      icon: <SiReactivex className='text-pink-500' />,
-      title: 'RxJS',
+      icon: <SiReactivex className="text-pink-500" />,
+      title: "RxJS",
       description:
-        'Proficient in using RxJS for managing asynchronous data streams in JavaScript applications.',
-      link: 'https://rxjs.dev/',
+        "Proficient in using RxJS for managing asynchronous data streams in JavaScript applications.",
+      link: "https://rxjs.dev/",
     },
     {
       icon: <SiJson />,
-      title: 'JSON',
+      title: "JSON",
       description:
-        'Skilled in working with JSON for data exchange between the server and client.',
-      link: 'https://www.json.org/json-en.html',
+        "Skilled in working with JSON for data exchange between the server and client.",
+      link: "https://www.json.org/json-en.html",
     },
     {
-      icon: <SiNpm className='text-red-600' />,
-      title: 'NPM',
+      icon: <SiNpm className="text-red-600" />,
+      title: "NPM",
       description:
-        'Experienced in using NPM for package management and dependency installation in projects.',
-      link: 'https://www.npmjs.com/',
+        "Experienced in using NPM for package management and dependency installation in projects.",
+      link: "https://www.npmjs.com/",
+    },
+    {
+      icon: <BsDiagram3 className="text-teal-500" />,
+      title: "Microservices Architecture",
+      description: "Understanding the design of small, independent services.",
+      link: "https://microservices.io/",
     },
   ],
   tools: [
     {
-      icon: <SiTailwindcss className='text-sky-400' />,
-      title: 'Tailwind CSS',
+      icon: <SiTailwindcss className="text-sky-400" />,
+      title: "Tailwind CSS",
       description:
-        'Skilled in using Tailwind CSS to create modern and responsive web designs.',
-      link: 'https://tailwindcss.com/',
+        "Skilled in using Tailwind CSS to create modern and responsive web designs.",
+      link: "https://tailwindcss.com/",
     },
     {
-      icon: <SiDaisyui className='text-purple-400' />,
-      title: 'Daisy UI',
+      icon: <SiDaisyui className="text-purple-400" />,
+      title: "Daisy UI",
       description:
-        'Familiar with using Daisy UI for ready-made components to enhance web designs.',
-      link: 'https://daisyui.com/',
+        "Familiar with using Daisy UI for ready-made components to enhance web designs.",
+      link: "https://daisyui.com/",
     },
     {
-      icon: <SiChakraui className='text-teal-500' />,
-      title: 'Chakra UI',
+      icon: <SiChakraui className="text-teal-500" />,
+      title: "Chakra UI",
       description:
-        'Basic knowledge of using Chakra UI to build modern web interfaces easily.',
-      link: 'https://chakra-ui.com/',
+        "Basic knowledge of using Chakra UI to build modern web interfaces easily.",
+      link: "https://chakra-ui.com/",
     },
     {
-      icon: <SiBitbucket className='text-blue-500' />,
-      title: 'Bitbucket',
+      icon: <SiBitbucket className="text-blue-500" />,
+      title: "Bitbucket",
       description:
-        'Experienced with Bitbucket for Git version control and team collaboration.',
-      link: 'https://bitbucket.org/product/',
+        "Experienced with Bitbucket for Git version control and team collaboration.",
+      link: "https://bitbucket.org/product/",
     },
     {
-      icon: <DiGit className='text-red-500' />,
-      title: 'Git',
+      icon: <DiGit className="text-red-500" />,
+      title: "Git",
       description:
-        'Understanding of using Git for version control to track changes in projects.',
-      link: 'https://git-scm.com/',
+        "Understanding of using Git for version control to track changes in projects.",
+      link: "https://git-scm.com/",
     },
     {
-      icon: <SiGithub className='text-gray-800' />,
-      title: 'GitHub',
+      icon: <SiGithub className="text-gray-800" />,
+      title: "GitHub",
       description:
-        'Experienced in collaborating on projects via GitHub, managing repositories, and handling pull requests.',
-      link: 'https://github.com/',
+        "Experienced in collaborating on projects via GitHub, managing repositories, and handling pull requests.",
+      link: "https://github.com/",
     },
     {
-      icon: <SiMicrosoftazure className='text-blue-500' />,
-      title: 'Azure',
+      icon: <SiMicrosoftazure className="text-blue-500" />,
+      title: "Azure",
       description:
-        'Experienced in using Microsoft Azure for cloud computing services such as app hosting, data storage, and machine learning.',
-      link: 'https://azure.microsoft.com/',
+        "Experienced in using Microsoft Azure for cloud computing services such as app hosting, data storage, and machine learning.",
+      link: "https://azure.microsoft.com/",
     },
     {
-      icon: <SiJenkins className='text-blue-400' />,
-      title: 'Jenkins',
+      icon: <SiJenkins className="text-blue-400" />,
+      title: "Jenkins",
       description:
-        'Proficient with Jenkins for CI/CD processes, enhancing development workflows.',
-      link: 'https://www.jenkins.io/',
+        "Proficient with Jenkins for CI/CD processes, enhancing development workflows.",
+      link: "https://www.jenkins.io/",
     },
     {
-      icon: <SiJest className='text-red-400' />,
-      title: 'Jest',
+      icon: <SiJest className="text-red-400" />,
+      title: "Jest",
       description:
-        'Basic understanding of using Jest to write simple tests for code.',
-      link: 'https://jestjs.io/',
+        "Basic understanding of using Jest to write simple tests for code.",
+      link: "https://jestjs.io/",
     },
     {
-      icon: <SiEslint className='text-purple-400' />,
-      title: 'ESLint',
+      icon: <SiEslint className="text-purple-400" />,
+      title: "ESLint",
       description:
-        'Experienced in using ESLint to maintain code quality and enforce coding standards.',
-      link: 'https://eslint.org/',
+        "Experienced in using ESLint to maintain code quality and enforce coding standards.",
+      link: "https://eslint.org/",
     },
     {
-      icon: <SiPostman className='text-orange-500' />,
-      title: 'Postman',
+      icon: <SiPostman className="text-orange-500" />,
+      title: "Postman",
       description:
-        'Skilled in using Postman for testing APIs and ensuring endpoint functionality.',
-      link: 'https://www.postman.com/',
+        "Skilled in using Postman for testing APIs and ensuring endpoint functionality.",
+      link: "https://www.postman.com/",
     },
     {
-      icon: <SiKeycloak className='text-gray-400' />,
-      title: 'Keycloak',
+      icon: <SiKeycloak className="text-gray-400" />,
+      title: "Keycloak",
       description:
-        'Knowledgeable in using Keycloak for identity and access management in web applications.',
-      link: 'https://www.keycloak.org/',
+        "Knowledgeable in using Keycloak for identity and access management in web applications.",
+      link: "https://www.keycloak.org/",
     },
     {
-      icon: <SiVisualstudiocode className='text-blue-500' />,
-      title: 'VS Code',
+      icon: <SiVisualstudiocode className="text-blue-500" />,
+      title: "VS Code",
       description:
-        'Proficient in using Visual Studio Code, a powerful and customizable code editor.',
-      link: 'https://code.visualstudio.com/',
+        "Proficient in using Visual Studio Code, a powerful and customizable code editor.",
+      link: "https://code.visualstudio.com/",
     },
     {
-      icon: <SiFigma className='text-green-400' />,
-      title: 'Figma',
+      icon: <SiFigma className="text-green-400" />,
+      title: "Figma",
       description:
-        'Experienced in using Figma for designing user interfaces and collaborating with design teams.',
-      link: 'https://www.figma.com/',
+        "Experienced in using Figma for designing user interfaces and collaborating with design teams.",
+      link: "https://www.figma.com/",
+    },
+    {
+      icon: <SiZsh className="text-cyan-400" />,
+      title: "Zsh",
+      description:
+        "Basic knowledge of using Zsh for customizing the terminal and improving productivity.",
+      link: "https://ohmyz.sh/",
     },
   ],
   softSkills: [
     {
-      icon: <span className='text-4xl'>🤝</span>,
-      title: 'Teamwork',
+      icon: <span className="text-4xl">🤝</span>,
+      title: "Teamwork",
       description:
-        'Effective at collaborating with team members and stakeholders to achieve common goals.',
+        "Effective at collaborating with team members and stakeholders to achieve common goals.",
     },
     {
-      icon: <span className='text-4xl'>🧠</span>,
-      title: 'Analytical',
+      icon: <span className="text-4xl">🧠</span>,
+      title: "Analytical",
       description:
-        'Adept at analyzing problems and finding data-driven solutions.',
+        "Adept at analyzing problems and finding data-driven solutions.",
     },
     {
-      icon: <span className='text-4xl'>💡</span>,
-      title: 'Adaptability',
+      icon: <span className="text-4xl">💡</span>,
+      title: "Adaptability",
       description:
-        'Able to adjust to new environments and technologies with ease.',
+        "Able to adjust to new environments and technologies with ease.",
     },
     {
-      icon: <span className='text-4xl'>💬</span>,
-      title: 'Empathy',
+      icon: <span className="text-4xl">💬</span>,
+      title: "Empathy",
       description:
-        'Skilled in understanding and addressing the needs and concerns of others.',
+        "Skilled in understanding and addressing the needs and concerns of others.",
     },
     {
-      icon: <span className='text-4xl'>🚀</span>,
-      title: 'Motivation',
+      icon: <span className="text-4xl">🚀</span>,
+      title: "Motivation",
       description:
-        'Self-driven and enthusiastic in completing tasks and achieving goals.',
+        "Self-driven and enthusiastic in completing tasks and achieving goals.",
     },
     {
-      icon: <span className='text-4xl'>⏳</span>,
-      title: 'Prioritization',
+      icon: <span className="text-4xl">⏳</span>,
+      title: "Prioritization",
       description:
-        'Capable of managing time effectively and prioritizing tasks for efficiency.',
+        "Capable of managing time effectively and prioritizing tasks for efficiency.",
     },
     {
-      icon: <span className='text-4xl'>🔄</span>,
-      title: 'Flexibility',
+      icon: <span className="text-4xl">🔄</span>,
+      title: "Flexibility",
       description:
-        'Open to new ideas and changes, ensuring smooth transitions in various situations.',
+        "Open to new ideas and changes, ensuring smooth transitions in various situations.",
     },
     {
-      icon: <span className='text-4xl'>🔍</span>,
-      title: 'Meticulous',
+      icon: <span className="text-4xl">🔍</span>,
+      title: "Meticulous",
       description:
-        'Meticulous in ensuring accuracy and quality in all tasks and projects.',
+        "Meticulous in ensuring accuracy and quality in all tasks and projects.",
     },
     {
-      icon: <span className='text-4xl'>🗣️</span>,
-      title: 'Communication',
-      description: 'Clear and calm in expressing ideas across teams.',
+      icon: <span className="text-4xl">🗣️</span>,
+      title: "Communication",
+      description: "Clear and calm in expressing ideas across teams.",
     },
     {
-      icon: <span className='text-4xl'>💼</span>,
-      title: 'Work Ethic',
-      description: 'Persistence and discipline in achieving goals.',
+      icon: <span className="text-4xl">💼</span>,
+      title: "Work Ethic",
+      description: "Persistence and discipline in achieving goals.",
     },
     {
-      icon: <span className='text-4xl'>🏅</span>,
-      title: 'Leadership',
-      description: 'Skilled in mentoring and motivating diverse teams.',
+      icon: <span className="text-4xl">🏅</span>,
+      title: "Leadership",
+      description: "Skilled in mentoring and motivating diverse teams.",
     },
     {
-      icon: <span className='text-4xl'>🎯</span>,
-      title: 'Problem Solving',
+      icon: <span className="text-4xl">🎯</span>,
+      title: "Problem Solving",
       description:
-        'Skilled at identifying issues and providing practical solutions.',
+        "Skilled at identifying issues and providing practical solutions.",
     },
   ],
 };
