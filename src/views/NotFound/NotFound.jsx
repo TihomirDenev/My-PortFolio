@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import notFoundImage from "../../assets/notFound.png";
+import { NavLink } from "react-router-dom";
 
 export default function NotFound() {
   return (
@@ -15,12 +15,12 @@ export default function NotFound() {
       />
 
       <p className="text-lg text-center">
-        We can't find the page you're looking for.
+        We can not find the page you are looking for.
       </p>
 
-      <Link to="/" className="btn btn-primary text-lg">
+      <NavLink to="/" className="btn btn-accent text-lg">
         Go Home
-      </Link>
+      </NavLink>
     </div>
   );
 }
