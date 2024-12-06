@@ -1,4 +1,4 @@
-import notFoundImage from "../../assets/notFound.png";
+import notFoundImage from "../../assets/Additional/notFound.png";
 import { NavLink } from "react-router-dom";
 
 export default function NotFound() {

@@ -1,13 +1,13 @@
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import ticTacToe from '../../assets/tic-tac-toe.png';
-import taskManager from '../../assets/task-manager.png';
-import motionMate from '../../assets/motion-mate.png';
-import tastyRecipeTalk from '../../assets/tasty-recipe-talk.png';
-import giphyHunters from '../../assets/giphy-hunters.png';
-import myPortfolio from '../../assets/portfolio.png';
-import placePicker from '../../assets/placePicker.png';
-import investmentCalc from '../../assets/investmentCalculator.png';
-import traffic from '../../assets/traffic.png';
+import ticTacToe from '../../assets/Projects/tic-tac-toe.png';
+import taskManager from '../../assets/Projects/task-manager.png';
+import motionMate from '../../assets/Projects/motion-mate.png';
+import tastyRecipeTalk from '../../assets/Projects/tasty-recipe-talk.png';
+import giphyHunters from '../../assets/Projects/giphy-hunters.png';
+import myPortfolio from '../../assets/Projects/portfolio.png';
+import placePicker from '../../assets/Projects/placePicker.png';
+import investmentCalc from '../../assets/Projects/investmentCalculator.png';
+import traffic from '../../assets/Projects/traffic.png';
 
 export default function Projects() {
   return (

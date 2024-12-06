@@ -1,6 +1,6 @@
-import myPhoto from "../../assets/myPhoto.jpg";
+import myPhoto from "../../assets/Additional/myPhoto.jpg";
 import Connect from "../../components/Connect/Connect";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/CV/myCV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 export default function Home() {

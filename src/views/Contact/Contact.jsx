@@ -1,6 +1,6 @@
 import Connect from '../../components/Connect/Connect';
 import { IoIosArrowRoundDown } from 'react-icons/io';
-import avatar from '../../assets/avatar.png';
+import avatar from '../../assets/Additional/avatar.png';
 import { LOCATION, workHours } from '../../common/constants';
 
 export default function Contact() {

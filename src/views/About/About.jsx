@@ -1,6 +1,7 @@
-import image from '../../assets/about.png';
-import frontImg from '../../assets/front.png';
-import backImg from '../../assets/back.png';
+import image from '../../assets/Additional/about.png';
+import frontImg from '../../assets/Certificates/JavaScriptFrontSide.png';
+import backImg from '../../assets/Certificates/JavaScriptBackSide.png';
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 export default function About() {
   return (
@@ -59,32 +60,40 @@ export default function About() {
           </div>
         </div>
         <br />
-        <h1 className='text-2xl font-bold underline'>📑 Certificate: </h1>
-        <div className='flex flex-col md:flex-row mt-8'>
+        <div className="font-bold flex flex-col items-center gap-8">
+          <h1 className="text-2xl font-bold underline">📑 Certificate: </h1>
+          <div className="flex flex-col md:flex-row">
+            <a
+              href={frontImg}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-4 md:mb-0 md:mr-5"
+            >
+              <img
+                src={frontImg}
+                alt="front"
+                className="h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:scale-105"
+              />
+            </a>
+            <a href={backImg} target="_blank" rel="noopener noreferrer">
+              <img
+                src={backImg}
+                alt="back"
+                className="h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:scale-105"
+              />
+            </a>
+          </div>
+
           <a
-            href={frontImg}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='mb-4 md:mb-0 md:mr-5'
+            href="https://learn.telerikacademy.com/mod/customcert/verify_certificate.php?contextid=99501&code=Tr2RLTAtHx&qrcode=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-row items-center gap-2 btn btn-accent shadow-2xl"
           >
-            <img
-              src={frontImg}
-              alt='front'
-              className='h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:scale-105'
-            />
-          </a>
-          <a
-            href={backImg}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img
-              src={backImg}
-              alt='back'
-              className='h-64 md:h-96 border-2 border-black shadow-2xl duration-300 hover:scale-105'
-            />
+            Show Credential <FaArrowUpRightFromSquare />
           </a>
         </div>
+
         <p className='text-primary text-center text-base mt-6 px-4'>
           <i>
             {`"Approach every task with a positive attitude and a smile,
