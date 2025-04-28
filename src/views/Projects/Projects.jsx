@@ -8,6 +8,7 @@ import myPortfolio from '../../assets/Projects/portfolio.png';
 import placePicker from '../../assets/Projects/placePicker.png';
 import investmentCalc from '../../assets/Projects/investmentCalculator.png';
 import traffic from '../../assets/Projects/traffic.png';
+import formulaOne from '../../assets/Projects/formulaOne.png';
 
 export default function Projects() {
   return (
@@ -16,6 +17,14 @@ export default function Projects() {
         My Recent Projects:
       </h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl'>
+        <ProjectCard
+          title='Formula One'
+          description='Formula One Central is a comprehensive web application designed for Formula One enthusiasts. It provides users with a platform to explore and analyze various aspects of the sport, including teams and drivers'
+          techStack='JavaScript, Angular, TypeScript, HTML, CSS, Modules, Reactive Forms'
+          linkForRepo='https://github.com/TihomirDenev/Formula1'
+          linkForSite='https://formula1-omega.vercel.app/'
+          image={formulaOne}
+        />
         <ProjectCard
           title='Task Manager'
           description='Task Manager allows users to manage their tasks efficiently with a user-friendly interface. Users can view tasks assigned to them, add new tasks, and mark tasks as complete. The application is structured to support enterprise needs, providing seamless management of user tasks without any friction.'
