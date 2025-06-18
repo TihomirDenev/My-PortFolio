@@ -1,93 +1,146 @@
-<h2 align="center">
-  Welcome to My Portfolio Website! <br/>
-  <a href="https://portfolio-tihomirdenevs-projects.vercel.app/" target="_blank">TDD PortFolio</a>
-</h2>
+# 🚀 Tihomir Denev - Portfolio Website
+
 <div align="center">
-<img alt="Demo" src="./src/assets/Additional/myPortFolio.png" height="350" style="border-radius: 10px;" />
+  <img alt="Portfolio Demo" src="./src/assets/Additional/myPortFolio.png" height="400" style="border-radius: 10px;" />
+  
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Portfolio-blue?style=for-the-badge&logo=vercel)](https://portfolio-tihomirdenevs-projects.vercel.app/)
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/TihomirDenev/My-PortFolio)
 </div>
 
-# 📝 Description
+## 🎯 About
 
-- This project is a comprehensive showcase of my skills, projects, and experiences as a web developer. It serves as a digital resume and a professional platform to present my work to potential employers and collaborators. The website is designed to provide a detailed overview of my capabilities, achievements, and professional journey.
-  <br/><br/>
+This is my personal portfolio website showcasing my skills, projects, and professional experience as a Frontend Web Developer. Built with modern web technologies, it serves as both a digital resume and a demonstration of my technical capabilities.
 
-# 🗃️ Technologies Used
+### What You'll Find Here:
 
-- Languages: <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="20"> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" height="20">
+- **Professional Overview**: My background, skills, and development philosophy
+- **Project Portfolio**: A curated collection of my best work with live demos
+- **Technical Skills**: Comprehensive list of technologies and tools I work with
+- **Contact Information**: Multiple ways to get in touch for opportunities
 
-- Frameworks/Libraries: <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" height="20"> <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" height="20"> <img src="https://media.licdn.com/dms/image/D4E12AQE1NInvgAfR3Q/article-cover_image-shrink_423_752/0/1696488544540?e=1722470400&v=beta&t=B6ngRnuqG90ia7gPvOs2Wnjk7o8NlWQe3rOVhKAq6a0" height="25"> <img src="https://img.daisyui.com/images/daisyui-logo/daisyui-logotype.svg" height="20"> <img src="https://camo.githubusercontent.com/285fdadfaf59ede5da219ccf9f8278322e8f85cfa48f5ba33df53ce2f0c72098/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566974652d4237334246453f7374796c653d666f722d7468652d6261646765266c6f676f3d76697465266c6f676f436f6c6f723d464644363245" height='20'>
+## ✨ Features
 
-- Browsers: <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" height="20"> <img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white" height="20">
-  <br/><br/>
+**🏠 Home Page**
 
-# 💡 Features
+- Professional introduction with downloadable CV
+- Quick access to contact information
+- Responsive design with smooth animations
 
-- **Home**
-  - A downloadable and printable version of my CV/resume, providing a concise summary of my skills, experiences, and education.
-- **About Me**
-  - A brief introduction to who I am, my background, and my journey into web development.
-  - Highlights of my core values, work philosophy, and what drives my passion for coding.
-  - Additional sections highlighting certifications, awards, and relevant extracurricular activities.
-- **Skills**
-  - A detailed list of my technical skills, including programming languages, frameworks, tools, and technologies I am proficient in.
-- **Projects**
-  - An extensive portfolio of my projects, showcasing both personal and professional work.
-  - Each project includes a description, technologies used, and links to live demos or repositories.
-- **Contact**
+**👨‍💻 About Me**
 
-  - Various ways to get in touch with me, including email address, and links to my social media profiles.
-  - Information on my availability for new projects, collaborations, or job opportunities.
+- Personal background and development journey
+- Professional philosophy and work ethic
+- Certifications and achievements
 
-  <br/>
+**🛠️ Skills Section**
 
-# ✅ Getting Started
+- A detailed list of my technical skills, including programming languages, frameworks, tools, and technologies I am proficient in.
 
-To install and run the project, follow these steps:
+**📁 Projects**
 
-1. Clone the [Portfolio _GitHub repository_](https://github.com/TihomirDenev/My-PortFolio) locally:
+- Interactive project showcase with detailed descriptions
+- Live demo links and GitHub repositories
+- Technology stack for each project
+- Responsive project cards with hover effects
 
-```bash
-git clone https://github.com/TihomirDenev/My-PortFolio.git
+**📞 Contact**
+
+- Professional contact information
+- Social media links
+- Availability for new opportunities
+
+## 🛠️ Technologies
+
+**Core Technologies**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Styling & UI**
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Daisy UI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white) ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
+**Development Tools**
+
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+**Cloud & Services**
+
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/TihomirDenev/My-PortFolio.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd My-PortFolio
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   Navigate to `http://localhost:4200` to view the application
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/           # Images, icons, and static files
+│   ├── Additional/   # Portfolio images and photos
+│   ├── Certificates/ # Professional certifications
+│   ├── CV/           # Resume files
+│   └── Projects/     # Project screenshots
+├── common/           # Shared constants and data
+├── components/       # Reusable UI components
+│   ├── Connect/      # Social media links
+│   ├── Footer/       # Site footer
+│   ├── NavBar/       # Navigation component
+│   ├── ProjectCard/  # Project display cards
+│   ├── SkillCard/    # Skill display cards
+│   └── ThemeChangeIcons/ # Theme toggle
+├── hoc/              # Higher-order components
+│   └── Layout/       # Main layout wrapper
+├── views/            # Page components
+│   ├── About/        # About page
+│   ├── Contact/      # Contact page
+│   ├── Home/         # Home page
+│   ├── NotFound/     # 404 page
+│   ├── Projects/     # Projects page
+│   └── Skills/       # Skills page
+├── App.jsx           # Main application component
+├── main.jsx          # Application entry point
+└── index.css         # Global styles
 ```
 
-2. Navigate to the project directory:
+## 🌐 Deployment
 
-```bash
-cd MyPortfolio
-```
+This portfolio is deployed on **Vercel** for optimal performance and reliability.
 
-3. Install project dependencies:
+- **Live URL**: [https://portfolio-tihomirdenevs-projects.vercel.app/](https://portfolio-tihomirdenevs-projects.vercel.app/)
+- **Platform**: Vercel
 
-```bash
-npm install
-```
+## 📄 License
 
-4. To run the project, use the following command:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```bash
-npm run dev
-```
+---
 
-5. Open localhost link in browser to view web-platform.
-
-<br/>
-
-# 🛠 Technologies Used
-
-- `HTML`
-- `JavaScript`
-- `React`
-- `Tailwind CSS`
-- `Daisy UI`
-
-<br />
-
-# 📲 Information and Deployment
-
-- This site is hosted on Vercel, which provides powerful hosting and serverless functions for static and dynamic websites. You can view the live site here: [My Portfolio](https://portfolio-tihomirdenevs-projects.vercel.app/).
-
-<br />
-
-# 📇 License
-
-- This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+<div align="center">
+  <p>Made with ❤️ by <strong>Tihomir Denev</strong></p>
+  <p>📍 Based in Sofia, Bulgaria</p>
+</div>
