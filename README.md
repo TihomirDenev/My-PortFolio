@@ -1,6 +1,7 @@
+<div align="center">
+
 # 🚀 Tihomir Denev - Portfolio Website
 
-<div align="center">
   <img alt="Portfolio Demo" src="./src/assets/Additional/myPortFolio.png" height="400" style="border-radius: 10px;" />
   
   [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Portfolio-blue?style=for-the-badge&logo=vercel)](https://portfolio-tihomirdenevs-projects.vercel.app/)
